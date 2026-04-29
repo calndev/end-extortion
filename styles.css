@@ -563,9 +563,25 @@
     .modal-box p { font-size: 17px; color: var(--text-mocha); margin-bottom: 32px; }
 
     @media (max-width: 768px) {
-      .header-inner { flex-direction: column; gap: 20px; }
-      nav { flex-wrap: wrap; justify-content: center; }
+      .container { padding: 0 32px; }
+      .header-inner { flex-direction: column; gap: 16px; padding: 0; }
+      nav { 
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        justify-content: flex-start; 
+        width: 100%; 
+        gap: 24px; 
+        padding-bottom: 12px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      nav::-webkit-scrollbar { display: none; }
+      
+      .callout { padding: 24px; margin: 32px 0; }
+      .article-block { margin-bottom: 40px; }
       .btn-secondary { margin-left: 0; margin-top: 16px; }
-      .form-container { padding: 32px 24px; }
-      .quick-exit { bottom: 20px; right: 20px; width: 56px; height: 56px; }
+      .form-container { padding: 40px 32px; }
+      
+      .quick-exit { bottom: 24px; right: 24px; width: 56px; height: 56px; }
+      .back-to-top { bottom: 96px; right: 28px; width: 48px; height: 48px; }
     }
