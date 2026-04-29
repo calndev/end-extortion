@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta name="referrer" content="no-referrer" />
+  <title>End Extortion: A Safe Space & Resource Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="crisis-banner">
+  Need immediate help? Call or text <strong>988</strong> (Suicide & Crisis) | Text HOME to <strong>741741</strong>
+</div>
+
+<div class="site-wrapper">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🌿</span> End Extortion
+      </div>
+      <nav>
+        <button class="nav-btn active" data-page="home">Home</button>
+        <button class="nav-btn" data-page="education">Learn</button>
+        <button class="nav-btn" data-page="safety">Safety</button>
+        <button class="nav-btn" data-page="resources">Resources</button>
+        <button class="nav-btn" data-page="support">Get Help</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- home -->
+    <div id="home" class="page-content active">
+      
+      <section class="section-wrap">
+        <div class="container hero">
+          <span class="hero-eyebrow">Safe Space · No Judgment · Confidential</span>
+          <h1>Fighting <em>Online Extortion.</em><br>Protecting Victims.</h1>
+          <p class="lead">Education, safety guidance, and support for anyone affected by online extortion, doxxing, and digital abuse. You are not alone, and this is not your fault.</p>
+          <div>
+            <button class="btn-primary" onclick="navigateTo('support')">Get Immediate Help</button>
+            <button class="btn-secondary" onclick="navigateTo('education')">Learn How to Stay Safe</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sand">
+        <div class="container">
+          <div style="text-align:center; max-width: 600px; margin: 0 auto;">
+            <h2>Who Are You Looking For?</h2>
+            <p class="lead" style="margin-bottom:0;">Select the option that best describes you, and we'll show you the most relevant resources.</p>
+          </div>
+          <div class="pathway-row">
+            <div class="pathway-card" data-pathway="teen">
+              <div class="pathway-icon">🌱</div>
+              <h4>I'm a Teen</h4>
+              <p>Resources tailored for young people facing online threats.</p>
+            </div>
+            <div class="pathway-card" data-pathway="parent">
+              <div class="pathway-icon">🏡</div>
+              <h4>I'm a Parent</h4>
+              <p>Guidance for protecting and supporting your child.</p>
+            </div>
+            <div class="pathway-card" data-pathway="adult">
+              <div class="pathway-icon">🕊️</div>
+              <h4>I'm an Adult</h4>
+              <p>Support for adult victims and concerned individuals.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sage">
+        <div class="container breathing-wrap">
+          <div class="breath-circle">
+            <span></span>
+          </div>
+          <h2>Take a Moment</h2>
+          <p class="lead">Inhale for 4 counts · Hold for 4 · Exhale for 6<br>You are safe here. Reaching out is an act of strength.</p>
+        </div>
+      </section>
+
+      <section class="section-wrap">
+        <div class="container form-container">
+          <div style="text-align:center; margin-bottom: 40px;">
+            <h2>Talk to Us in Confidence</h2>
+            <p class="lead">This is a secure, anonymous space for questions and guidance. Nothing here is reported to law enforcement without your explicit consent. All communications are completely private.</p>
+          </div>
+          <div class="callout callout-sage" style="margin-bottom: 40px;">
+            <strong>You are not in trouble.</strong> There is no judgment here, only support and guidance to help you through this.
+          </div>
+          <form id="tipForm">
+            <textarea id="tipText" placeholder="Share your concerns in confidence. We're here to listen and help..."></textarea>
+            <div style="text-align:center;">
+              <button type="submit" class="btn-primary">Request Support</button>
+              <p style="margin-top:16px; font-size:14px; color:var(--text-latte);">Your message stays strictly private.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sand">
+        <div class="container" style="text-align:center;">
+          <a href="https://www.tiktok.com/@endextortion" target="_blank" class="btn-secondary">Contact us on TikTok</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- edu -->
+    <div id="education" class="page-content">
+      <section class="section-wrap">
+        <div class="container">
+          <div class="article-block" style="text-align:center;">
+            <h1>Understanding Online Extortion</h1>
+            <p class="lead">Knowledge is your first line of defense. Learn how perpetrators operate, what tactics they use, and how to recognize the warning signs before it's too late.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-white">
+        <div class="container">
+          <div class="article-block">
+            <h2>What is Doxxing?</h2>
+            <p>Doxxing is the act of researching and publicly revealing private or identifying information about someone with malicious intent, such as addresses, phone numbers, workplace, or family details, to intimidate or harass victims.</p>
+            
+            <h4>What One Piece of Info Can Expose</h4>
+            <ul>
+              <li><strong>Phone numbers:</strong> carrier info, all linked accounts, device details, location data</li>
+              <li><strong>Email addresses:</strong> social media accounts, purchases, subscriptions, and linked services</li>
+              <li><strong>Home addresses:</strong> property records, voter registration, family members, nearby relatives</li>
+              <li><strong>Usernames:</strong> can be cross-referenced across platforms to identify you everywhere</li>
+              <li><strong>IP addresses:</strong> approximate location, internet provider, linked accounts and activity</li>
+            </ul>
+
+            <h4>Prevention</h4>
+            <ul>
+              <li>Never share real name, address, phone number, or school information online</li>
+              <li>Use different usernames across every platform. Never reuse handles</li>
+              <li>Avoid geotagged photos or posts that reveal your location</li>
+              <li>Set all social media accounts to private and review regularly</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sand">
+        <div class="container">
+          <div class="article-block">
+            <h2>What is Swatting?</h2>
+            <p>Swatting is filing a false emergency report, claiming a hostage situation or active shooter, at the victim's address, causing heavily armed law enforcement to respond. It is used as an extreme intimidation tactic.</p>
+            <ul>
+              <li>Never share your real address or location information online</li>
+              <li>Use a PO Box or virtual mailbox for necessary mail</li>
+              <li>Inform trusted neighbors about the possibility of false emergency responses</li>
+              <li>Work with local law enforcement to establish a code word or verification signal</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap">
+        <div class="container">
+          <div class="article-block">
+            <h2>Warning Signs</h2>
+            <div class="callout callout-terracotta">
+              <strong>Act early.</strong> The sooner you recognize these signs in someone you love, the sooner you can get help.
+            </div>
+            <ul>
+              <li>Sudden changes in online behavior or device usage patterns</li>
+              <li>Increased secrecy about online activities and accounts</li>
+              <li>Unexplained requests for money</li>
+              <li>Withdrawal from social activities and friends</li>
+              <li>Anxiety or distress after using devices</li>
+              <li>Quickly closing screens when others approach</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- safety -->
+    <div id="safety" class="page-content">
+      <section class="section-wrap">
+        <div class="container">
+          <div class="article-block" style="text-align:center;">
+            <h1>Safety Guide</h1>
+            <p class="lead">Practical steps to protect your information before an incident, and clear guidance on what to do if you're already being targeted.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-white">
+        <div class="container">
+          <div class="article-block">
+            <h2>If You're Currently Being Extorted</h2>
+            <div class="callout callout-sage">
+              <strong>You are not in trouble,</strong> no matter what happened. Extortionists rely on shame and fear to control victims. You are not at fault for their criminal actions.
+            </div>
+            <div class="callout callout-terracotta">
+              <strong>If you are under 18:</strong> You must involve a parent or guardian when contacting law enforcement.
+            </div>
+            <ol>
+              <li><strong>Stay calm.</strong> Don't panic or make rushed decisions. Assess the situation carefully.</li>
+              <li><strong>Do not engage.</strong> Never respond to messages, negotiate, or provide any additional information to the perpetrator.</li>
+              <li><strong>Document everything.</strong> Screenshot all communications and evidence without altering timestamps.</li>
+              <li><strong>Report immediately.</strong> Contact the FBI's IC3 or NCMEC CyberTipline as soon as possible.</li>
+              <li><strong>Secure your accounts.</strong> Change passwords and enable additional security on all potentially compromised accounts.</li>
+              <li><strong>Tell trusted adults,</strong> such as parents, guardians, or other trusted adults who can provide practical support.</li>
+              <li><strong>Seek professional help.</strong> Consider counseling or therapy to process the emotional impact.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sand">
+        <div class="container">
+          <div class="article-block">
+            <h2>Best Practices for Responding</h2>
+            <p>The most effective response to extortion is <strong>complete non-engagement</strong>. Do not respond to messages, negotiate, or acknowledge their communications. This denies them what they seek and often causes them to move on.</p>
+            <div class="callout callout-ochre">
+              <strong>Consider turning over your devices</strong> to federal investigators. Federal agents have specialized tools to trace digital evidence that local law enforcement may not have access to.
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- resources -->
+    <div id="resources" class="page-content">
+      <section class="section-wrap">
+        <div class="container">
+          <div class="article-block" style="text-align:center;">
+            <h1>Useful Tools & Websites</h1>
+            <p class="lead">Curated tools and platforms to protect your privacy, monitor for threats, and report incidents to the right authorities.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-white">
+        <div class="container">
+          <div class="article-block">
+            <h2>Reporting Platforms</h2>
+            <div class="resource-list">
+              <a href="https://www.ic3.gov" target="_blank" class="resource-item">
+                <div class="resource-icon">🏛️</div>
+                <div class="resource-text">
+                  <strong>FBI Internet Crime Complaint Center (IC3)</strong>
+                  <span>Primary platform for reporting cybercrimes to federal authorities</span>
+                </div>
+              </a>
+              <a href="https://www.cybertipline.org" target="_blank" class="resource-item">
+                <div class="resource-icon">📞</div>
+                <div class="resource-text">
+                  <strong>NCMEC CyberTipline</strong>
+                  <span>Report child sexual exploitation and sextortion involving minors</span>
+                </div>
+              </a>
+              <a href="https://takeitdown.ncmec.org" target="_blank" class="resource-item">
+                <div class="resource-icon">🛡️</div>
+                <div class="resource-text">
+                  <strong>Take It Down (NCMEC)</strong>
+                  <span>Best resource for removing explicit images of minors from the internet</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sand">
+        <div class="container">
+          <div class="article-block">
+            <h2>Privacy & Parental Tools</h2>
+            <div class="callout callout-sage">
+              <strong>We highly recommend Bark</strong> for Android users. It monitors texts, emails, and social media for online predators, cyberbullying, and explicit content. For iPhone users, consider the dedicated Bark Phone.
+            </div>
+            <ul>
+              <li><strong>Password Managers:</strong> LastPass, 1Password, Bitwarden</li>
+              <li><strong>VPNs:</strong> NordVPN, ExpressVPN, ProtonVPN</li>
+              <li><strong>Bark (bark.us):</strong> proactive monitoring with AI-powered alerts for parents</li>
+              <li><strong>Qustodio:</strong> comprehensive parental controls across devices</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- support -->
+    <div id="support" class="page-content">
+      <section class="section-wrap">
+        <div class="container">
+          <div class="article-block" style="text-align:center;">
+            <h1>Victim Support Services</h1>
+            <p class="lead">You are not alone. These organizations provide specialized, confidential support for victims of online extortion and cybercrime. Help is available right now.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sand">
+        <div class="container">
+          <div class="article-block">
+            <h2 style="text-align:center;">Crisis Hotlines: Call Now</h2>
+            <div class="hotline-grid">
+              <div class="hotline-card">
+                <div class="hotline-label">Suicide & Crisis</div>
+                <div class="hotline-name">Lifeline</div>
+                <div class="hotline-number">988</div>
+              </div>
+              <div class="hotline-card">
+                <div class="hotline-label">Crisis Text Line</div>
+                <div class="hotline-name">Text HOME to</div>
+                <div class="hotline-number">741741</div>
+              </div>
+              <div class="hotline-card">
+                <div class="hotline-label">Image Abuse</div>
+                <div class="hotline-name">CCRI Helpline</div>
+                <div class="hotline-number">844-878-2274</div>
+              </div>
+              <div class="hotline-card">
+                <div class="hotline-label">Child Abuse</div>
+                <div class="hotline-name">National Hotline</div>
+                <div class="hotline-number">800-422-4453</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-white">
+        <div class="container">
+          <div class="article-block">
+            <h2>Online Abuse & Sextortion</h2>
+            <div class="resource-list">
+              <a href="https://cybercivilrights.org" target="_blank" class="resource-item">
+                <div class="resource-icon">⚖️</div>
+                <div class="resource-text">
+                  <strong>Cyber Civil Rights Initiative (CCRI)</strong>
+                  <span>Free 24/7 helpline for sextortion and image-based abuse</span>
+                </div>
+              </a>
+              <a href="https://withoutmyconsent.org" target="_blank" class="resource-item">
+                <div class="resource-icon">🕊️</div>
+                <div class="resource-text">
+                  <strong>Without My Consent</strong>
+                  <span>Legal resources for victims of online harassment</span>
+                </div>
+              </a>
+              <a href="https://victimconnect.org" target="_blank" class="resource-item">
+                <div class="resource-icon">🤝</div>
+                <div class="resource-text">
+                  <strong>VictimConnect Resource Center</strong>
+                  <span>Confidential assistance for all crime victims</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-sage">
+        <div class="container">
+          <div class="article-block" style="text-align:center;">
+            <h2>Remember</h2>
+            <p class="lead">You are not alone; help is available and you deserve support.<br>It is not your fault. Perpetrators are responsible for their criminal actions.<br>Recovery takes time. Be patient with yourself throughout the healing process.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="logo" style="justify-content:center; margin-bottom: 24px;">
+        <span class="logo-icon">🌿</span> End Extortion
+      </div>
+      <p style="color:var(--text-mocha); margin-bottom: 32px;">Fighting online extortion. Supporting victims. Taking down perpetrators.</p>
+      <div class="footer-links">
+        <button onclick="navigateTo('home')">Home</button>
+        <button onclick="navigateTo('education')">Learn</button>
+        <button onclick="navigateTo('safety')">Safety</button>
+        <button onclick="navigateTo('resources')">Resources</button>
+        <button onclick="navigateTo('support')">Get Help</button>
+      </div>
+      <p style="margin-top: 40px; font-size: 14px; color: var(--text-latte);">© 2025 End Extortion. All rights reserved. Designed to combat online extortion and protect victims.</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- exit -->
+<button class="quick-exit" id="quickExit" title="Quick Exit (Alt+Shift+X)">✕</button>
+<button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+
+<!-- modal -->
+<div id="pathwayModal" style="display:none;" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-icon" id="modalIcon"></div>
+    <h4 id="modalTitle"></h4>
+    <p id="modalBody"></p>
+    <button class="btn-primary" id="modalClose">I Understand</button>
+  </div>
+</div>
+
+
+<div id="resultModal" style="display:none;" class="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-icon" id="resultIcon"></div>
+    <h4 id="resultTitle"></h4>
+    <p id="resultBody"></p>
+    <button class="btn-primary" id="resultClose">Close</button>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
